@@ -23,3 +23,5 @@
   - http://www.elasticsearch.org/guide/en/kibana/current/using-kibana-for-the-first-time.html
  - Uso básico  (lib python elasticsearch):
   - http://blog.arisetyo.com/?p=332
+  - http://blog.qbox.io/building-an-elasticsearch-index-with-python
+  - https://elasticsearch-py.readthedocs.org/en/master/
