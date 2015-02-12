@@ -1,6 +1,8 @@
+build-essential
 python2.7
 python2.7-dev
+python-pip
 cassandra=2.0.12
 dsc20
 python-cql
-python2-virtualenv
+elasticsearch
