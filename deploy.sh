@@ -25,7 +25,8 @@ sudo update-rc.d elasticsearch defaults 95 10
 sudo apt-get update
 cat ./apt-reqs.txt | xargs sudo apt-get install -y
 
-pip install virtualenv
+sudo pip-2.7 install virtualenv
+sudo pip-2.7 install virtualenv --upgrade
 
 #cria o virtualenv e instala as libs python nele
 sudo mkdir -p /var/virtual_envs

@@ -1,5 +1,8 @@
 # elastic-cassandra
 
+ - Isto não é um README ainda.
+ - Este repositório, no momento, é somente um backup.
+
 
 # Materiais utilizados
 

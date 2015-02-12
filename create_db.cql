@@ -3,8 +3,9 @@ WITH REPLICATION = { 'class' : 'SimpleStrategy', 'replication_factor' : 1 };
 
 USE mykeyspace;
 
-CREATE TABLE IF NOT EXISTS users (
+CREATE TABLE IF NOT EXISTS superdupertable (
   uid UUID PRIMARY KEY,
-  fname text,
-  lname text
+  name text,
+  body text,
+  insert_time timestamp
 );
