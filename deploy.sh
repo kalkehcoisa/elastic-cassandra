@@ -20,7 +20,7 @@ curl -L http://debian.datastax.com/debian/repo_key | sudo apt-key add -
 #adiciona o repositorio do elastic search
 wget -qO - https://packages.elasticsearch.org/GPG-KEY-elasticsearch | sudo apt-key add -
 sudo add-apt-repository "deb http://packages.elasticsearch.org/elasticsearch/1.4/debian stable main"
-sudo update-rc.d elasticsearch defaults 95 10
+#sudo update-rc.d elasticsearch defaults 95 10
 
 sudo apt-get update
 cat ./apt-reqs.txt | xargs sudo apt-get install -y
